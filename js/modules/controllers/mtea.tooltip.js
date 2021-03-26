@@ -204,7 +204,7 @@ define(['d3', 'myConfig', 'modules/helpers/dom'], function (d3, myConfig, Dom) {
 
 		d3.select("#tt-mpd")
 			.style("z-index", "1")
-			.transition()
+			//.transition()
 			.style("opacity", "1")
 			.style("left", function() {
 				return ((offset[0] + x + 16.5) / 960 * 100) + "%";
