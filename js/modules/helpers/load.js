@@ -13,7 +13,7 @@ define(['d3',
 	 * @return {Object} GeoJSON data (countries)
 	 */
 	var json = function (jsonPath) {
-		return $.getJSON('/' + jsonPath);
+		return $.getJSON(myConfig.myUrl + jsonPath);
 	},
 
 	/**

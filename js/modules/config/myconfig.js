@@ -12,6 +12,7 @@ define({
 		"fillHighlight" : "#ED303C",
 		"mapBG" : "#CBDAE6"
 	},
+	"myUrl": "https://joostkiens.github.io/mteainfographic/",
 	/**
 	 * Path of countries data model
 	 * @type {String}
