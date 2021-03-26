@@ -1,0 +1,98 @@
+body,
+html,{
+	color: $body-txt;
+	font-family: "Droid Serif",Georgia,"Times New Roman",serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+svg text {
+	fill: $m-gray;
+}
+h1 {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 8em;
+	line-height: 1;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: (3 * $base-line-height) 0 (5 * $base-line-height);
+	color: white;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+}
+h1::before,
+h1::after {
+	content: '\2605';
+}
+.h2,
+h2 {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 4em;
+	line-height: 1;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 0 0.25em 0;
+	text-align: center;
+}
+.page-title {
+	text-align: center;
+	padding: 0.5em 0 0.25em;
+	margin: 0;
+	color: $l-gray;
+	fill: $l-gray;
+}
+.h3,
+h3 {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 2em;
+	line-height: 1;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 0 0.25em 0;
+}
+.h4,
+h4 {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 1.5em;
+	line-height: 1;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 0 0.25em 0;
+}
+
+.sc-details {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 1.5em;
+	line-height: 1;
+	margin: 0 0 0.25em 0;
+}
+.fake-link {
+	@include transition( all .2s ease-in-out);
+	color: #F5634A;
+	fill: #F5634A;
+	cursor: pointer;
+}
+.fake-link:hover {
+	color: #ED303C;
+	fill: #ED303C;
+}
+.mast p {
+	font-size: 24px;
+}
+.strong {
+	font-weight: bold;
+}
+.small {
+	font-size: 0.75em;
+}
+a {
+	&:link,
+	&:visited {
+		color: $salmon;
+	}
+	&:hover,
+	&:focus {
+		color: $turquoise;
+	}
+	&:active {
+		color: $m-gray;
+	}
+}

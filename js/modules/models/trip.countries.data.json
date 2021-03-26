@@ -1,0 +1,616 @@
+{
+	"type":"Featurecollection",
+	"features":[
+		{
+			"type":"Feature",
+			"id":"TH",
+			"properties": {
+				"visited" : "1",
+				"name" : "Thailand",
+				"km" : "1343",
+				"moneyTotal" : "296.20",
+				"moneyGas" : "104.38",
+				"moneyPerDay" : "49.37",
+				"moneyAccomodation" : "7.51",
+				"moneyCar" : "15.92",
+				"moneyFB" : "104.16",
+				"moneyMisc" : "64.23",
+				"currencyISO" : "THB",
+				"currency" : "Baht",
+				"days" : "6",
+				"mechanics" : "3",
+				"rating" : "5",
+				"weather" : "Sunny, rain and humid",
+				"scenery" : "Jungles & beaches",
+				"startDate" : "2012, 7, 13",
+				"endDate" : "2012, 7, 19",
+				"description" : "Left on friday the 13th, car broke down the same day. Next day we lost our cat. Said goodbye to Benz' parents & drove south to the border.<br><br>Sleeping on beaches, great food &amp; beers aplenty.",
+				"zoom" : "4.5"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ 
+						"type": "Feature", 
+						"properties": { 
+							"Name": "Thailand", 
+							"Description": "" 
+						}, "geometry": { 
+							"type": "LineString", 
+							"coordinates": [ [ 100.649178, 13.668000 ], [ 100.490570, 13.675340 ], [ 100.002357, 13.400970 ], [ 99.970772, 13.517170 ], [ 99.986572, 13.398970 ], [ 99.835510, 13.338180 ], [ 99.944000, 12.787690 ], [ 99.094620, 10.284510 ], [ 99.162590, 10.273700 ], [ 99.095993, 10.252080 ], [ 99.168091, 9.042420 ], [ 98.691551, 8.504970 ], [ 98.885193, 8.101379 ], [ 98.831627, 8.019790 ], [ 98.909912, 8.100010 ], [ 99.371338, 7.457794 ], [ 99.638443, 7.453020 ], [ 100.057297, 6.729053 ], [ 100.067589, 6.612770 ], [ 100.073090, 6.776785 ], [ 100.177109, 6.698020 ] ] 
+						} 
+					},
+					{ "type": "Feature", "properties": { "Name": "Bang Na", "Description": "<div dir=\"ltr\">We left on Friday the 13th, around 10 in the morning.<br>Still in Bangkok our car broke down on the highway.<br><br>Our mechanic came to pick us up, we slept at his place.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 100.647125, 13.656663, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Damnoen Saduak", "Description": "<div dir=\"ltr\">Slept at Benz' parents home. Said goodbye to her family. Her dad blessed out car with holy water.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 99.972839, 13.517838, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Had Sawi", "Description": "<div dir=\"ltr\">Our first night sleeping in our car, right on the beach. In the morning we went to mechanic number 2: a loose spark plug cable.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 99.165344, 10.271681, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Au Nang", "Description": "<div dir=\"ltr\">Visited our buddy Rick, who works near the beach. His boss gave us a free room. Very nice place.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 98.833008, 8.021155, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Hat Chao Mai", "Description": "<div dir=\"ltr\">Slept on the beach again. Beautiful, but eaten alive by an army of massive mosquitoes. Watched movies in the back of our truck on the netbook.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 99.347305, 7.447582, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Wang Prachan", "Description": "<div dir=\"ltr\">Last night in Thailand. Drank _a lot_ of beers with the local expat community. Next morning , after spending 3 hours at the border, we entered Malaysia<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 100.063477, 6.588217, 0.000000 ] } }
+
+				]
+			}
+
+		},
+		{
+			"type":"Feature",
+			"id":"MY",
+			"properties": {
+				"visited" : "1",
+				"name" : "Malaysia",
+				"km" : "745",
+				"moneyTotal" : "450.62",
+				"moneyGas" : "143.73",
+				"moneyPerDay" : "32.19",
+				"moneyAccomodation" : "143.73",
+				"moneyCar" : "0",
+				"moneyFB" : "201.76",
+				"moneyMisc" : "80.73",
+				"currencyISO" : "MYR",
+				"currency" : "Ringgit",
+				"days" : "14",
+				"mechanics" : "0",
+				"rating" : "3",
+				"weather" : "Rainy & very humid",
+				"scenery" : "Jungle covered hills",
+				"startDate" : "2012, 7, 19",
+				"endDate" : "2012, 8, 2",
+				"description" : "Drove down the beautiful highway to Kuala Lumpur, sleeping on parking lots.<br>In KL waiting for our Bill of Lading, stayed in a dive with Chinese prostitutes. Beers were very expensive.",
+				"zoom" : "3.75"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 100.184326, 6.698707 ], [ 100.346375, 6.457234 ], [ 100.432892, 6.431307 ], [ 100.415039, 5.375398 ], [ 100.210419, 5.368561 ], [ 100.415039, 5.345317 ], [ 101.098938, 4.581901 ], [ 101.648254, 3.092522 ], [ 101.399689, 3.000642 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "R & R", "Description": "<div dir=\"ltr\">We slept in the car on a wonderful R&amp;R: a rest stop next to the highway. Great, cheap food.<br>At night the police woke us up, but didn't send us away.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 100.430145, 5.978046, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Penang", "Description": "<div dir=\"ltr\">Stayed one night in a hippy commune-like place. A remnant of the past on an otherwise very developed island.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 100.206299, 5.365827, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "R & R at Sungai", "Description": "<div dir=\"ltr\">Slept again in our car on another great R&amp;R, monkeys playing around our car. <br><br>Money was very low.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 101.321411, 3.990301, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Kuala Lumpur", "Description": "<div dir=\"ltr\">We had to stay here for a long time, waiting for the Bill Of Lading and our Carnet. <br>Killed time by working for clients &amp; drinking cheap brandy.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 101.646881, 3.087037, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"IN",
+			"properties": {
+				"visited" : "1",
+				"name" : "India",
+				"km" : "1450",
+				"moneyTotal" : "710.82",
+				"moneyGas" : "175.57",
+				"moneyPerDay" : "29.62",
+				"moneyAccomodation" : "167.80",
+				"moneyCar" : "5.53",
+				"moneyFB" : "233.40",
+				"moneyMisc" : "128.52",
+				"currencyISO" : "INR",
+				"currency" : "Rupees",
+				"days" : "24",
+				"mechanics" : "2",
+				"rating" : "3",
+				"weather" : "Rainy, hot & humid",
+				"scenery" : "Ricefields, tea plantations",
+				"startDate" : "2012, 8, 2",
+				"endDate" : "2012, 9, 8",
+				"description" : "Incredible India... what a dump. A lovely dump, but still a dump. Stayed weeks in Calcutta trying to get our car out of customs.<br>Drove north to Nepal. After Nepal we drove east to Pakistan.",
+				"zoom" : "2"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "India part 1", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 88.379509, 22.569000 ], [ 88.564911, 23.173180 ], [ 87.978508, 24.771770 ], [ 88.170769, 25.606850 ], [ 87.863152, 25.987671 ], [ 88.302612, 26.372181 ], [ 87.835693, 26.887779 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "India part II", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 80.430908, 28.912016 ], [ 78.288567, 29.516109 ], [ 77.695312, 30.453400 ], [ 77.280571, 30.543329 ], [ 76.821892, 30.391830 ], [ 74.822380, 31.667400 ], [ 74.358215, 31.528215 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Kolkata", "Description": "<div dir=\"ltr\">Stayed here for 2 weeks waiting for our car to arrive and then to get him car out of customs.<br><br>Slept in a cheap friendly guesthouse in the north of the city.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 88.379517, 22.583584, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "National Highway 2", "Description": "<div dir=\"ltr\">This \"road\" through a beautiful countryside does not deserve the title highway. 600 km took us 3 full days driving. <br>Potholes giving our suspension a good exercise.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 88.275146, 23.956137, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Haridwar", "Description": "<div dir=\"ltr\">This place is crazy. A holy town full of sadhus &amp; pilgrims.<br><br>Also, the whole town is vegetarian &amp; alcohol free. Aweful.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 78.079834, 29.907330, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Nahan", "Description": "<div dir=\"ltr\">Bored with the flat coutryside we drove up to this mountain resort town. Had great food &amp; beers on a rooftop terrace.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 77.272339, 30.538609, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Amritsar", "Description": "<div dir=\"ltr\">Benz started to feel ill, which would last for another week. So we chilled out for a few days.<br><br>Visited the amazing Golden Temple &amp; had our last beer for a long time.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 74.838867, 31.662733, 0.000000 ] } }
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"NP",
+			"properties": {
+				"visited" : "1",
+				"name" : "Nepal",
+				"km" : "1568",
+				"moneyTotal" : "710.82",
+				"moneyGas" : "175.57",
+				"moneyPerDay" : "29.62",
+				"moneyAccomodation" : "75.09",
+				"moneyCar" : "26.43",
+				"moneyFB" : "216.18",
+				"moneyMisc" : "199.21",
+				"currencyISO" : "NPR",
+				"currency" : "Rupee",
+				"days" : "13",
+				"mechanics" : "1",
+				"rating" : "5",
+				"weather" : "Cloudy, hot & humid",
+				"scenery" : "The Himalayas, jungles",
+				"startDate" : "2012, 8, 21",
+				"endDate" : "2012, 9, 3",
+				"description" : "Nepal was awesome. Great people, great food & a beautiful scenery. We took a nerve-wrecking, very steep shortcut to Kathmandu. Drove through the Himalayas, drove over muddy \"roads\" , got stuck in a river & saw rhinos.",
+				"zoom" : "8"
+				},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 88.467407, 26.681822 ], [ 86.802979, 26.568876 ], [ 84.984741, 27.264397 ], [ 85.045166, 27.479034 ], [ 85.391235, 27.688393 ], [ 83.964386, 28.205189 ], [ 83.564758, 27.858503 ], [ 83.421936, 27.500963 ], [ 83.037415, 27.532629 ], [ 83.062134, 27.661636 ], [ 82.872620, 27.637306 ], [ 82.750397, 27.841505 ], [ 81.427917, 28.311634 ], [ 81.267242, 28.618282 ], [ 80.032654, 29.021351 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Kathmandu Shortcut", "Description": "<div dir=\"ltr\">If anyone tells you to take the shortcut to Kathmandu, only do it when you are not afraid of heights, have a small vehicle &amp; good tires. What a ride!<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 85.166016, 27.542372, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Unknown Road", "Description": "<div dir=\"ltr\">Don't take this road. Ever. 3 hours to cross 30 kilometers of mud, sand &amp; potholes.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 83.133545, 27.532629, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Bardia National Park", "Description": "<div dir=\"ltr\">Got the car stuck in a small river with crocodiles. It took 10 men &amp; a Mahindra 4x4 to get the car out of the river.<br><br>We also saw rhinos in the jungle. Amazing place.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 81.551514, 28.309217, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"PK",
+			"properties": {
+				"visited" : "1",
+				"name" : "Pakistan",
+				"km" : "4504",
+				"moneyTotal" : "1035.30",
+				"moneyGas" : "282.35",
+				"moneyPerDay" : "30.45",
+				"moneyAccomodation" : "233.15",
+				"moneyCar" : "74.59",
+				"moneyFB" : "234.63",
+				"moneyMisc" : "210.58",
+				"currencyISO" : "PKR",
+				"currency" : "Rupee",
+				"days" : "34",
+				"mechanics" : "4",
+				"rating" : "5",
+				"weather" : "Dusty, hot & chilly",
+				"scenery" : "The Himalayas, ricefields, dessert",
+				"startDate" : "2012, 9, 8",
+				"endDate" : "2012, 10, 12",
+				"description" : "Pakistan took us a lot longer than expected. We both got ill, Iranian visa expired, were stuck because of riots, floodings and lack of police escorts.<br>Our fondest memories are of this country and its people.",
+				"zoom" : "3.75"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 75.124512, 31.353638 ], [ 73.059082, 31.998758 ], [ 72.663574, 33.128349 ], [ 73.168945, 33.815666 ], [ 73.487549, 34.007133 ], [ 73.201904, 34.198174 ], [ 73.839111, 34.985004 ], [ 72.707520, 33.760883 ], [ 72.960205, 33.504761 ], [ 72.685547, 33.063923 ], [ 73.004150, 32.045334 ], [ 74.333496, 31.569176 ], [ 71.608887, 29.343876 ], [ 68.884277, 27.644606 ], [ 68.455811, 28.226971 ], [ 68.829346, 27.586199 ], [ 67.950439, 26.588528 ], [ 68.400879, 25.582085 ], [ 67.005615, 24.866503 ], [ 66.599121, 28.004103 ], [ 66.994629, 30.126123 ], [ 64.830322, 28.883160 ], [ 62.160645, 28.777288 ], [ 61.018066, 29.391748 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Lahore", "Description": "<div dir=\"ltr\">We stayed in Lahore twice: First to sort out a visa extension and because Benz was sick. Then to get a new Iranian visa and because Joost was sick.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 74.377441, 31.578535, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Mansehra", "Description": "<div dir=\"ltr\">Stayed with my brother's coworker's family. Great people who let us hang out while outside anti-western protests were going on.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 72.707520, 33.100746, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Naran", "Description": "<div dir=\"ltr\">We drove up to this beautiful mountain town, got in a 4x4 to go up a mountain to an amazing lake. One of the most beautiful places we've ever seen.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 73.828125, 34.976002, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Sukkur", "Description": "<div dir=\"ltr\">Got stuck here, because of flooding. First we slept in our car on a police compound, after with a police man and his family. This area is not too safe.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 68.884277, 27.683529, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Karachi", "Description": "<div dir=\"ltr\">Got stuck again, this time trying to organize a police escort through Balochistan. Took us five days before got a security.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 67.038574, 24.886436, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Quetta", "Description": "<div dir=\"ltr\">Dined with the warlord who organized our police escorts. Nice guy, crazy evening.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 66.950684, 30.164125, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"IR",
+			"properties": {
+				"visited" : "1",
+				"name" : "Iran",
+				"km" : "3409",
+				"moneyTotal" : "453.35",
+				"moneyGas" : "50.59",
+				"moneyPerDay" : "34.87",
+				"moneyAccomodation" : "151.79",
+				"moneyCar" : "38.30",
+				"moneyFB" : "119.55",
+				"moneyMisc" : "93.12",
+				"currencyISO" : "IRR",
+				"currency" : "Rial",
+				"days" : "13",
+				"mechanics" : "6",
+				"rating" : "4",
+				"weather" : "Chilly, dry",
+				"scenery" : "Endless desserts, mountains",
+				"startDate" : "2012, 10, 12",
+				"endDate" : "2012, 10, 25",
+				"description" : "After our ordeals in Pakistan we really wanted a beer. But first we needed to cross Iran. Really great place for traveling. Friendly people, beautiful landscape & very affordable. Highlight was Kurdistan.",
+				"zoom" : "3"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 62.468262, 28.767658 ], [ 60.161133, 29.878756 ], [ 58.161621, 29.190533 ], [ 57.084961, 30.315989 ], [ 55.568848, 29.334297 ], [ 55.206299, 30.911652 ], [ 54.360352, 31.877558 ], [ 51.756592, 32.657875 ], [ 46.966553, 34.397846 ], [ 46.153564, 35.406960 ], [ 46.148071, 36.985004 ], [ 44.906616, 37.670776 ], [ 44.049683, 37.653381 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Zahedan", "Description": "<div dir=\"ltr\">Spent some days here with Roberto, a Spanish motorcycle driver with whom we drove the last stretch in Baclohistan. Ate our first, but definitely not the last Kebabs.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 60.798340, 29.516109, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Meymand", "Description": "<div dir=\"ltr\">12,000 year old village, slept in an ancient cave. Drank tea with some random dude in his house (another cave).<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 55.656738, 29.171349, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Yazd", "Description": "<div dir=\"ltr\">Beautiful ancient city on the Silk Route with stone walls everywhere. Stayed in the Silk Route hotel.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 54.316406, 31.914867, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Isfahan", "Description": "<div dir=\"ltr\">Bought loads of winter clothes here. Temperatures were slowly getting lower &amp; lower. Isfahan was nice too. Great fast food.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 51.635742, 32.676373, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Iraqi Border", "Description": "<div dir=\"ltr\">Kurdistan is amazing. Beautiful, friendly people, awesome mountains.<br><br>Spend a few days exploring this area. Slept in our car next to the Iraqi border. Campfire &amp; cake for dinner. Awesome.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 46.362305, 35.173809, 0.000000 ] } }
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"TR",
+			"properties": {
+				"visited" : "1",
+				"name" : "Turkey",
+				"km" : "4150",
+				"moneyTotal" : "1638.01",
+				"moneyGas" : "628.19",
+				"moneyPerDay" : "109.20",
+				"moneyAccomodation" : "187.93",
+				"moneyCar" : "323.28",
+				"moneyFB" : "311.29",
+				"moneyMisc" : "187.32",
+				"currencyISO" : "TRY",
+				"currency" : "Lira",
+				"days" : "15",
+				"mechanics" : "6",
+				"rating" : "3",
+				"weather" : "Cold (east) & warm (south)",
+				"scenery" : "Desserts mountains, mediterranean",
+				"startDate" : "2012, 10, 25",
+				"endDate" : "2012, 11, 9",
+				"description" : "Great to be back in Turkey for the first time in 5 years. Very expensive though, especially after Iran. In Iran the gas price was 18 Eurocent per liter, here it was 2,80. Still had a great time, especially on the south coast.",
+				"zoom" : "4"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 44.873650, 37.777222 ], [ 44.228210, 37.572880 ], [ 43.195492, 38.335190 ], [ 40.100090, 38.955132 ], [ 38.240662, 38.333031 ], [ 34.834900, 38.685509 ], [ 34.579460, 36.791691 ], [ 32.750240, 36.046871 ], [ 30.750731, 36.993771 ], [ 29.591669, 36.275269 ], [ 27.328491, 37.666428 ], [ 27.081289, 38.320110 ], [ 27.026360, 39.622608 ], [ 26.416626, 39.563354 ], [ 26.586910, 41.697521 ], [ 25.916740, 42.000320 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Lake Van", "Description": "<div dir=\"ltr\">Cooking &amp; sleeping on a cold mountain overlooking Lake Van.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 42.901611, 38.371807, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Goreme", "Description": "<div dir=\"ltr\">Met two bikers from Finland: Rami &amp; Vimma. Had more than a couple Beer Efez.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 34.832153, 38.689796, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "No idea how it's called", "Description": "<div dir=\"ltr\">Stayed two days here on the beach, barbecuing local seafood, campfires and all that ish. <\/div>" }, "geometry": { "type": "Point", "coordinates": [ 32.947998, 36.111252, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Edirne", "Description": "<div dir=\"ltr\">Had our alternator rebuilt, while the dogs of our hotel were poisoned by an angry neighbor. Expensive &amp; sad respectively.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 26.586914, 41.693424, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Dilek", "Description": "<div dir=\"ltr\">Went to a gypsy market. Vegetables, 1kg, 25c, fresh!<br>Used our tarp for the first time, cooked spaghetti and had beers under the tarp in the rain with the local cats and dogs. Cozy.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 27.322998, 37.683819, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"BG",
+			"properties": {
+				"visited" : "1",
+				"name" : "Bulgaria",
+				"km" : "602",
+				"moneyTotal" : "222.62",
+				"moneyGas" : "42.95",
+				"moneyPerDay" : "74.21",
+				"moneyAccomodation" : "63.91",
+				"moneyCar" : "6.65",
+				"moneyFB" : "84.27",
+				"moneyMisc" : "24.84",
+				"currencyISO" : "BGN",
+				"currency" : "Lev",
+				"days" : "3",
+				"mechanics" : "1",
+				"rating" : "5",
+				"weather" : "Sunny, but chilly",
+				"scenery" : "Hills, getting green again",
+				"startDate" : "2012, 11, 9",
+				"endDate" : "2012, 11, 12",
+				"description" : "Bulgaria, the first real European country on our journey. The first affordable beers since Thailand. Truly great place, great food, cheap wine, beautiful cities & nature.",
+				"zoom" : "10"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 27.561951, 41.370625 ], [ 25.298767, 42.187828 ], [ 24.721985, 42.206142 ], [ 25.675049, 42.340275 ], [ 25.628357, 43.094967 ], [ 26.059570, 44.192051 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Plovdiv", "Description": "<div dir=\"ltr\">Beautiful city in Bulgaria. We stayed here in the medieval city centre. In the morning our car wouldn't start, a friendly Plovdivian helped us to get going again.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 24.713745, 42.206142, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"RO",
+			"properties": {
+				"visited" : "1",
+				"name" : "Romania",
+				"km" : "763",
+				"moneyTotal" : "242.5",
+				"moneyGas" : "53.87",
+				"moneyPerDay" : "80.83",
+				"moneyAccomodation" : "75.32",
+				"moneyCar" : "15.41",
+				"moneyFB" : "70.42",
+				"moneyMisc" : "27.48",
+				"currencyISO" : "RON",
+				"currency" : "Leu",
+				"days" : "3",
+				"mechanics" : "2",
+				"rating" : "4",
+				"weather" : "Beautiful fall weather",
+				"scenery" : "Hilly, forested mountains",
+				"startDate" : "2012, 11, 12",
+				"endDate" : "2012, 11, 15",
+				"description" : "Romania was nice, but by now it was getting quite cold. However in Brasov we had a nice sunny day. Last time we ate outside. Country side was nice, signs warning against crossing bears.",
+				"zoom" : "8"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 25.977173, 43.632099 ], [ 26.136475, 44.422012 ], [ 25.603638, 45.644768 ], [ 24.748077, 46.228302 ], [ 23.609619, 46.769966 ], [ 21.225586, 47.249409 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Brasov", "Description": "<div dir=\"ltr\">Amazing city. Really nice. By now we were well into the hostel circuit. Too expensive to stay in hotels, to cold to stay in the car.<br><br>Drank cheap wine in a hostel with backpacking kids.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 25.602264, 45.650528, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Sighisoara", "Description": "<div dir=\"ltr\">Birthplace of the original Dracula: Vlas Tepes.<br><br>We stopped here for a bit, went to another mechanic (again), explored the spooky city, visited a spooky graveyard and had a spooky hot dog.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 24.763184, 46.220703, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Oradea", "Description": "<div dir=\"ltr\">Stayed in a cheapish hotel. Benz ordered 800 gram of grilled pork leg with half a kilo of sauerkraut &amp; beer. Almost finished it too. Respect.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 22.186890, 47.057026, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"HU",
+			"properties": {
+				"visited" : "1",
+				"name" : "Hungary",
+				"km" : "467",
+				"moneyTotal" : "220.35",
+				"moneyGas" : "51.36",
+				"moneyPerDay" : "110.18",
+				"moneyAccomodation" : "61.63",
+				"moneyCar" : "14.89",
+				"moneyFB" : "68.61",
+				"moneyMisc" : "23.86",
+				"currencyISO" : "HUF",
+				"currency" : "Forint",
+				"days" : "2",
+				"mechanics" : "0",
+				"rating" : "5",
+				"weather" : "Pretty darn cold",
+				"scenery" : "Green hills",
+				"startDate" : "2012, 11, 15",
+				"endDate" : "2012, 11, 17",
+				"description" : "In Hungary, we made only one stop: Budapest. A wonderful city, had a great time walking along the river, exploring the castle & tasting the food. Need to come back here sometime.",
+				"zoom" : "10"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 22.291260, 46.871456 ], [ 18.967896, 47.487514 ], [ 17.347412, 47.765175 ], [ 17.028809, 48.531158 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Budapest", "Description": "<div dir=\"ltr\">Budapest was our only stop in Hungary, but what a city!<br>It was a cold, but beautiful day when we were in this romantic city. Once more we found ourselves in a place where we need to come back to.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 19.022827, 47.483803, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"SK",
+			"properties": {
+				"visited" : "1",
+				"name" : "Slovakia",
+				"km" : "90",
+				"moneyTotal" : "0",
+				"moneyGas" : "0",
+				"moneyPerDay" : "0",
+				"moneyAccomodation" : "0",
+				"moneyCar" : "0",
+				"moneyFB" : "0",
+				"moneyMisc" : "0",
+				"currencyISO" : "EUR",
+				"currency" : "Euro",
+				"days" : "0.125",
+				"mechanics" : "0",
+				"rating" : "3",
+				"weather" : "A bit rainy",
+				"scenery" : "A bit of highway",
+				"startDate" : "2012, 11, 17",
+				"endDate" : "2012, 11, 17",
+				"description" : "Nothing. We were here for 1.5 hours. Don't even think we stopped for gas.",
+				"zoom" : "12"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 16.902466, 48.833988 ], [ 17.462769, 47.781788 ] ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"CZ",
+			"properties": {
+				"visited" : "1",
+				"name" : "Czech Republic",
+				"km" : "542",
+				"moneyTotal" : "437.38",
+				"moneyGas" : "89.52",
+				"moneyPerDay" : "109.35",
+				"moneyAccomodation" : "159.00",
+				"moneyCar" : "0",
+				"moneyFB" : "134.56",
+				"moneyMisc" : "54.3",
+				"currencyISO" : "CZK",
+				"currency" : "Koruna",
+				"days" : "4",
+				"mechanics" : "0",
+				"rating" : "3",
+				"weather" : "Rainy, cold",
+				"scenery" : "Green hills & plains",
+				"startDate" : "2012, 11, 17",
+				"endDate" : "2012, 11, 21",
+				"description" : "One of the last countries on our trip. It was great though, first Kutna Hora then Prague. By now our car was almost finished, but we were too close to home to really care anymore.",
+				"zoom" : "10"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 17.031555, 48.598408 ], [ 16.636047, 49.154766 ], [ 15.247650, 49.584896 ], [ 15.316315, 49.965355 ], [ 14.585724, 49.994499 ], [ 14.412689, 50.071243 ], [ 13.370361, 49.696060 ], [ 12.700195, 49.940617 ], [ 12.557373, 49.639175 ], [ 11.788330, 49.393101 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Kutna Hora", "Description": "<div dir=\"ltr\">Chilled out a couple of days in a little B&amp;B in this Baroque town. Ate a lot pizza, Chinese food &amp; visited the Church of Bones.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 15.303955, 49.958286, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Prague", "Description": "<div dir=\"ltr\">Spent one night here, saw the sites, drank large beers and had Absinthe. The typical Prague experience.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 14.436035, 50.081821, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Some random place", "Description": "<div dir=\"ltr\">Last night on the road. :S<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 12.700195, 49.944149, 0.000000 ] } }
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"DE",
+			"properties": {
+				"visited" : "1",
+				"name" : "Germany",
+				"km" : "603",
+				"moneyTotal" : "99",
+				"moneyGas" : "73",
+				"moneyPerDay" : "148.5",
+				"moneyAccomodation" : "0",
+				"moneyCar" : "0",
+				"moneyFB" : "20",
+				"moneyMisc" : "6",
+				"currencyISO" : "EUR",
+				"currency" : "Euro",
+				"days" : "0.75",
+				"mechanics" : "0",
+				"rating" : "3",
+				"weather" : "Rainy, cold",
+				"scenery" : "Hills, plains, highway",
+				"startDate" : "2012, 11, 21",
+				"endDate" : "2012, 11, 21",
+				"description" : "Drove through Germany in one day, from East Czech Republic to Belgium. We overtook one truck in 8 hours.",
+				"zoom" : "5"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.342896, 49.738682 ], [ 11.178589, 49.446701 ], [ 8.552856, 50.071243 ], [ 7.031250, 50.896103 ], [ 5.657959, 50.576260 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Near the border", "Description": "<div dir=\"ltr\">Got stopped by the German customs police. The first time since Thailand that I had to show my driving license.<br><br>They were friendly enough &amp; took pictures of our car.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 12.249756, 49.582226, 0.000000 ] } }
+
+					]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"BE",
+			"properties": {
+				"visited" : "1",
+				"name" : "Belgium",
+				"km" : "132",
+				"moneyTotal" : "0",
+				"moneyGas" : "0",
+				"moneyPerDay" : "0",
+				"moneyAccomodation" : "0",
+				"moneyCar" : "0",
+				"moneyFB" : "0",
+				"moneyMisc" : "0",
+				"currencyISO" : "EUR",
+				"currency" : "Euro",
+				"days" : "5",
+				"mechanics" : "0",
+				"rating" : "3",
+				"weather" : "Cold & dry",
+				"scenery" : "Hilly slopes, last leaves",
+				"startDate" : "2012, 11, 21",
+				"endDate" : "2012, 11, 26",
+				"description" : "Belgium! Almost made it! But as soon as we left the highway, our crappy GPS app on our crappy phone directed us to some fields, dark narrow backroads. Ah well, actually we thoroughly enjoyed getting lost for the last time.",
+				"zoom" : "18"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Belgium", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 6.118010, 50.713848 ], [ 5.739670, 50.464062 ], [ 5.589980, 50.605030 ], [ 5.921631, 51.065563 ] ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Lorce", "Description": "<div dir=\"ltr\">Met up with Joost's Family. Spent 5 days recuperating in Lorce, washed &amp; fixed the car a bit.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 5.741043, 50.464497, 0.000000 ] } }
+					,
+					{ "type": "Feature", "properties": { "Name": "Liege", "Description": "<div dir=\"ltr\">Car stalled every few minutes, called road services.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 5.591354, 50.606339, 0.000000 ] } }
+
+				]
+			}
+		},
+		{
+			"type":"Feature",
+			"id":"NL",
+			"properties": {
+				"visited" : "1",
+				"name" : "Netherlands",
+				"km" : "150",
+				"moneyTotal" : "40",
+				"moneyGas" : "40",
+				"moneyPerDay" : "0",
+				"moneyAccomodation" : "0",
+				"moneyCar" : "0",
+				"moneyFB" : "0",
+				"moneyMisc" : "0",
+				"currencyISO" : "EUR",
+				"currency" : "Euro",
+				"days" : "0.05",
+				"mechanics" : "0",
+				"rating" : "3",
+				"weather" : "Cold, rainy, gray",
+				"scenery" : "Meh, boring",
+				"startDate" : "2012, 11, 26",
+				"endDate" : "2012, 11, 26",
+				"description" : "The end!",
+				"zoom" : "14"
+			},
+			"geodata" : {
+				"type": "FeatureCollection",
+				"features": [
+					{ "type": "Feature", "properties": { "Name": "Route", "Description": "" }, "geometry": { "type": "LineString", "coordinates": [ [ 5.646973, 50.663391 ], [ 5.916138, 51.158676 ], [ 5.877686, 51.364922 ], [ 5.740356, 51.849354 ] ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Border", "Description": "<div dir=\"ltr\">Slowed down at the border to take a picture of us entering the Netherlands. Engine stopped! Luckily we managed to get it working again, from there we just drove to our finish line.<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 5.789795, 50.916885, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Nijmegen", "Description": "<div dir=\"ltr\">The end of our journey. As unceremonious as we started. Ehm, time for a beer?<\/div>" }, "geometry": { "type": "Point", "coordinates": [ 5.762329, 51.842567, 0.000000 ] } }
+
+				]
+			}
+		}
+]}

@@ -1,0 +1,52 @@
+@import "modules/base";
+@import "partials/maps";
+
+* { 
+	@include box-sizing(border-box); 
+}
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+.mast {
+	text-align: center;
+	border-bottom: 6px solid rgba(0, 0, 0, 0.4);
+	background: $salmon;
+	padding: (3 * $base-line-height) 0 (7 * $base-line-height);
+	position: relative;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.content {
+	position: relative;
+}
+
+.intro {
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.intro p {
+	margin: 0 0 $base-line-height;
+}
+.colophon {
+	background: $ll-gray;
+	margin: 0;
+	text-align: center;
+	padding: 2 * $base-line-height 0;
+	border-top: 6px solid $l-gray;
+}
+.loading {
+	width: 64px;
+	height: 64px;
+	background: url(../img/loading.gif);
+	margin: 48px auto;
+}
+@import "partials/main_nav";
+@import "partials/chrome_frame";
+@import "partials/tooltip";
+@import "partials/mod";
+@import "modules/print";

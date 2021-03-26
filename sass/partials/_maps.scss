@@ -1,0 +1,83 @@
+svg {
+	width: 100%;
+	//margin: $base-line-height 0 (2 * $base-line-height);
+	position: relative;
+	top: 0;
+	height: 100%;
+}
+#svg-wrap {
+	width: 100%;
+	max-height: 2600px;
+	position: relative;
+	vertical-align: top;
+}
+.overview {
+	@include transition( all .1s linear);
+	background: white;
+}
+.bounding-box {
+	fill: white;
+	stroke: $ll-gray;
+}
+.overview.showdetail {
+	border-color: rgba(255, 255, 255, 0);
+	background: none;
+}
+.bounding-box,
+rect,
+.axis path {
+	shape-rendering: crispEdges;
+}
+.clickable {
+	cursor: pointer;
+}
+.line {
+	fill: none;
+	stroke: $turquoise;
+}
+.global-line {
+	stroke-width: 4;
+}
+.sc-title {
+	margin-left: 200px;
+	margin-top: 20px;
+}
+.country-poi {
+	fill: $yellow;
+
+	&:hover {
+		fill: $d-yellow;
+	}
+}
+.cover-clickable:hover {
+	fill-opacity: 0.2;
+}
+.country-desc {
+	position: absolute;
+	top: 112px + 48px;
+	left: 0;
+	width: 200px;
+	margin-bottom: 24px;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+.axis path {
+	fill: none;
+	stroke: $l-gray;
+	stroke-width: 1px;
+}
+.axis text {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 1.5em;
+	fill: $m-gray;
+}
+.bar {
+	fill: $salmon;
+}
+.km-text {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 18em;
+	fill: $lll-gray;
+}

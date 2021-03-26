@@ -1,0 +1,37 @@
+.image-navigator {
+	padding: 24px 0;
+	list-style: none;
+	overflow: visible;
+	//background: rgba(0, 0, 0, 0.2);
+	/*height: 144px;
+	margin-bottom: -48px;
+	@include border-top-radius(20px);*/
+
+	li {
+		
+		display: inline-block;
+		margin-left: 86px;
+		width: 120px;
+		height: 120px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	img {
+		line-height: 0;
+		width: 120px;
+		height: 120px;
+		@include border-radius(60px);
+		border: 6px solid $l-gray;
+		@include filter(grayscale(70%));
+		@include transition(all .2s ease-in-out);
+	}
+
+	a:hover img,
+	a:focus img {
+		@include filter(grayscale(0%));
+		@include scale(1.1, 1.1);
+	}
+}
